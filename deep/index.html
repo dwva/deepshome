@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-white to-blue-100 text-gray-900">
+    <header class="flex justify-between items-center p-6">
+        <img src="logo.png" alt="DeepSeek Logo" class="h-10">
+    </header>
+    
+    <main class="text-center p-10">
+        <p class="text-gray-600">🎉 DeepSeek-R1 is now live and open source, rivaling OpenAI's Model 01. Available on web, app, and API.</p>
+        <h1 class="text-4xl font-bold text-blue-600 my-4">deepseek</h1>
+        <h2 class="text-xl font-semibold text-gray-700">Into the unknown</h2>
+        
+        <div class="flex justify-center gap-6 mt-6">
+            <div class="bg-white p-4 rounded-lg shadow-lg w-64">
+                <h3 class="text-blue-600 font-bold">Start Now</h3>
+                <p class="text-gray-600">Free access to deepseek-v3 and R1. Experience the intelligent model.</p>
+                <a href="chat.html" class="block mt-2 text-blue-500 underline" onclick="navigateToChat(event)">Go to Chat</a>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-lg w-64">
+                <h3 class="text-blue-600 font-bold">Get DeepSeek App</h3>
+                <p class="text-gray-600">Chat on the go with Deepseek-V3. Your free all-in-one tool.</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-blue-200 p-6 mt-10">
+        <div class="text-center">
+            <img src="logo.png" alt="DeepSeek Logo" class="h-8 mx-auto">
+            <p class="text-gray-700">&copy; 2025 DeepSeek. All rights reserved.</p>
+        </div>
+        <div class="flex justify-center gap-10 mt-4 text-sm text-gray-700">
+            <div>
+                <h4 class="font-bold">Research</h4>
+                <p>DeepSeek R1</p>
+                <p>DeepSeek V3</p>
+                <p>DeepSeek Coder V2</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Product</h4>
+                <p>DeepSeek App</p>
+                <p>DeepSeek Chat</p>
+                <p>API Pricing</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Legal & Safety</h4>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+            </div>
+            <div>
+                <h4 class="font-bold">Join Us</h4>
+                <p>Job Description</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function navigateToChat(event) {
+            event.preventDefault(); // Prevent default navigation
+            window.location.href = "chat.html"; // Redirect to chat page
+        }
+    </script>
+</body>
+</html>
